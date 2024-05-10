@@ -22,7 +22,7 @@ const featureCardContent = [
   {
     title: "Manage your team with reports",
     description:
-      "Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.",
+      "Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and dropdown on the data in a couple clicks.",
     icons: FeatureIcon2,
   },
   {

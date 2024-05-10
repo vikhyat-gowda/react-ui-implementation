@@ -14,7 +14,7 @@ function BlogSection() {
             Our blog
           </p>
           <h3 className="mb-4 text-3xl font-semibold leading-[38px] lg:mb-5 lg:text-4xl lg:leading-[44px] lg:tracking-tight">
-            Lastest blog posts
+            Latest blog posts
           </h3>
           <p className="text-cgrey-60 text-lg ">
             Tool and strategies modern teams need to help their companies grow.
