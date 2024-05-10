@@ -6,7 +6,7 @@ import ChevronDown from "@/assets/icons/chevron-down.svg?react";
 import MenuIcon from "@/assets/icons/menu.svg?react";
 import BookClosedIcon from "@/assets/icons/book-closed.svg?react";
 import StarIcon from "@/assets/icons/stars-02.svg?react";
-import PlayCicleIcon from "@/assets/icons/play-circle-purple.svg?react";
+import PlayCircleIcon from "@/assets/icons/play-circle-purple.svg?react";
 import PersonImg from "@/assets/Image.png";
 import ChevronUpIcon from "@/assets/icons/chevron-up.svg?react";
 import { User, Settings, Users, MailPlus, Zap, LogOut } from "lucide-react";
@@ -25,7 +25,7 @@ const HoverCardContent = [
   {
     title: "Video tutorials",
     description: "Get up and running on new features and techniques.",
-    Icon: PlayCicleIcon,
+    Icon: PlayCircleIcon,
   },
 ];
 
