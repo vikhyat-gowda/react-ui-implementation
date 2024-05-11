@@ -65,7 +65,7 @@ function DropDownCard({ text }) {
         {text} {isOpen ? <ChevronUpIcon /> : <ChevronDown />}
         {isOpen && (
           <div className="absolute z-30  top-8 lg:top-6 grid  grid-cols-1 -translate-x-4 rounded-xl bg-white px-4 shadow-lg lg:w-[640px] lg:-translate-x-1/3 lg:grid-cols-2 lg:p-5">
-            <div className="flex flex-col items-center py-4">
+            <div className="flex flex-col items-start py-4">
               {HoverCardContent.map((item,i) => {
                 const { title, description, Icon } = item;
                 return (
@@ -73,7 +73,7 @@ function DropDownCard({ text }) {
                     <Icon />
                     <div className="flex flex-col ">
                       <h3 className="text-base font-semibold">{title}</h3>
-                      <p className="w-80 lg:w-auto text-sm font-normal text-cgrey-600">
+                      <p className="min-w-min lg:w-auto text-sm font-normal text-cgrey-600">
                         {description}
                       </p>
                     </div>
